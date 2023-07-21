@@ -44,4 +44,4 @@ RUN apt-get update -y --fix-missing  && apt-get install -y --allow-downgrades --
         libjsoncpp-dev libboost-log-dev libboost-chrono-dev libboost-date-time-dev libboost-serialization-dev libboost-locale-dev libboost-iostreams-dev \
         && rm -rf /var/lib/apt/lists/*
 
-RUN pip install --no-cache-dir -U openai-whipser packaging ninja
+RUN pip install --no-cache-dir -U openai-whisper packaging ninja
